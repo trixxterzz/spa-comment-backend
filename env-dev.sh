@@ -1,0 +1,6 @@
+export URL='localhost:5173/'
+export JWT_KEY=''
+export S3_SECRET=''
+export S3_ACCESS=''
+export S3_REGION=''
+export S3_BUCKET=''
