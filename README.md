@@ -16,7 +16,7 @@ Express.jx, SQLite3, JWT, S3, Socket.io, Joi
 5. Run `npm start`. Now your server should be deployed and is listening to 3000 port.
 
 ### Variant 2. Docker deployment
-#### Tools requirements: Docker
+#### Tools requirements: Docker, configured for public object reading S3 bucket
 1. Run `docker build -t backend .`
 2. In **.env.dev** replace empty strings in fields with your credentials (JWT_KEY - generate your JWT certificate for tokens encription, S3_* variables - fill with your bucket data and credentials)
 3. Run `docker run -p 3000:3000 --env-file .env.dev backend`. Now you can check your Docker interface, where new docker image and container should've been created.
