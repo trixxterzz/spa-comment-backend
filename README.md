@@ -3,7 +3,7 @@
 This is backend part of Single Page Application that implements functionality of writing comments and replying to them with applicating text file or image. Application has its authorization system, pagination and different sort criterias.
 
 ## Stack
-Express.jx, SQLite3, JWT, S3, Socket.io, Joi
+Express.js, SQLite3, JWT, S3, Socket.io, Joi
 
 ## Installation
 
@@ -19,5 +19,5 @@ Express.jx, SQLite3, JWT, S3, Socket.io, Joi
 #### Tools requirements: Docker, configured for public object reading S3 bucket
 1. Run `docker build -t backend .`
 2. In **.env.dev** replace empty strings in fields with your credentials (JWT_KEY - generate your JWT certificate for tokens encription, S3_* variables - fill with your bucket data and credentials)
-3. Run `docker run -p 3000:3000 --env-file .env.dev backend`. Now you can check your Docker interface, where new docker image and container should've been created.
+3. Run `docker run -p 3000:3000 --env-file .env.dev backend`. Now you can check your Docker interface, where new docker image and running container should've been created.
 
