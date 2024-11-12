@@ -5,7 +5,7 @@ This is backend part of Single Page Application that implements functionality of
 ## Stack
 Express.js, SQLite3, JWT, S3, Socket.io, Joi
 
-## Installation
+## Installation and deployment
 
 ### Variant 1. Manual deployment
 #### Tools requirements: SQLite3, NPM, configured for public object reading S3 bucket
